@@ -1,0 +1,264 @@
+body{
+    font-family: alternate-gothic-no-2-d,sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    width: 100%;
+    height: 40px;
+}
+.navlogo{
+    margin-top: 20px;
+    margin-left: 300px;
+width: 40px;
+}
+
+.optionsdiv{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 800px;
+    margin-bottom: 90px;
+}
+
+.options{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.options:hover{
+    text-decoration:red underline;
+}
+.twsimg{
+    position: absolute;
+    margin-top: 90px;
+margin-left: 350px;
+transition-duration:0.5s ;
+}
+.twsimg:hover{
+    transform: scale(1.1);
+}
+.searchbtn{
+    width: 23px;
+    margin-left: 500px;
+    margin-bottom: 90px;
+
+}
+.heading{
+    position: absolute;
+    margin-top: 93px;
+    margin-left: 400px;
+    color: white;
+    font-size: 35px;
+}
+.btnbuy,.learnmore{
+    margin-top: 90px;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    border: 0;
+}
+.btnbuy{
+    background-image: url(images/appleblack.png);
+    background-repeat: no-repeat;
+    background-position: 100px 11px ;
+    background-size: 40px;
+    background-color: rgb(235, 226, 226);
+    color: black;
+    font-size: 15px;
+    font-weight: 900;
+    transition: 0.5s;
+}
+.btnbuy:hover{
+    background-image: url(images/whiteapple.jpeg);
+    background-repeat: no-repeat;
+    background-position: 110px 11px ;
+    background-size: 20px;
+    border: 1px solid white;
+background-color:black;
+color: white;
+
+}.photo1,.photo3,.photo2,.photo4,.photo5,.photo6,.photo7,.photo8,.photo9{
+    transition-duration: 0.3s;
+}
+.photo1:hover,.red:hover,.photo2:hover,.photo3:hover,.photo4:hover,.photo5:hover,.photo6:hover,.photo7:hover,.photo8:hover,.photo9:hover{
+transform: scale(.90);
+color:red;
+}
+.learnmore{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0,0);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 900;
+    transition: 0.5s;
+}
+.learnmore:hover{
+    color: black;
+    background-color: white;
+}
+.thirddiv{
+    margin-top: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.photo1div,.photo1{
+    position: relative;
+    width: 800px;
+    height: 400px;
+}
+
+.photo2div,.photo2{
+    position: relative;
+    width: 400px;
+    height: 600px;
+}
+
+.fourthdiv,.fifthdiv,.sixthdiv{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.photo3div,.photo3{
+    position: relative;
+    width: 400px;
+    height: 500px;
+}
+
+.photo4div,.photo4{
+    position: relative;
+    width: 400px;
+    height: 450px;
+}
+.photo5div,.photo5{
+    position: relative;
+    width: 500px;
+    height: 600px;
+}
+.photo6div,.photo6{
+    position: relative;
+width:850px;
+height: 300px;
+}
+.photo7div,.photo7{
+    position: relative;
+    width: 400px;
+    height: 450px;
+}
+.photo8div,.photo8{
+    position: relative;
+    width: 400px;
+    height: 450px;
+}
+.photo9div,.photo9{
+    position: relative;
+    width: 800px;
+    height: 450px;
+}
+.btnviewmore{
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 60px;
+margin-left: 900px;
+width: 140px;
+height: 50px;
+border-radius: 50px;
+background-color: rgba(0,0,0,0);
+border: solid .5px;
+}
+.btnviewmore:hover{
+    background-color: black;
+    color: white;
+}
+.description{
+    position: absolute;
+    font-weight: 900;
+    bottom: -25px;
+    font-size: 25px;
+    background-color: white;
+}
+.red{
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(133, 130, 130);
+}
+.footer{
+    padding-top: 90px;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+}
+.footer1{
+    padding-top: 20px;
+}
+.footer2{
+    padding-top: 30px;
+    margin-left: 40px;
+    width: 15%;
+    height: 700px;
+}
+.footerhead{
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: 900;
+    color: black;
+}
+.footeroptions{
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(136, 136, 136);
+    font-size: 14px;
+    font-weight: 900;
+}
+.footeroptions:hover{
+    color: red;
+    text-decoration: underline red;
+}
+.footeroption{
+    text-decoration: none;
+    color: rgb(136, 136, 136);
+    font-size: 14px;
+    font-weight: 900;
+}
+.footeroption:hover{
+    color: red;
+    text-decoration: underline red;
+}
+.signup{
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(136, 136, 136);
+    font-size: 14px;
+    font-weight: 900;
+}
+.signup:hover{
+    color: red;
+    text-decoration: underline red;
+}
+.footersub{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+h4{
+    margin-left: 10px;
+}
+.logo{
+    margin-left:10px;
+    width: 20px;
+    height: 20px;
+}
+.location{
+    font-size: 14px;
+    color: rgb(136, 134, 134);
+    font-weight: 900;
+    font-family: alternate-gothic-no-2-d,sans-serif;
+    margin-left: 10px;
+}
+
